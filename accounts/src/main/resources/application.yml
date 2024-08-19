@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    username: root
+    password: faber@2022
+    url: jdbc:mysql://localhost:3306/microservice
+  jpa:
+    properties:
+      hibernate:
+        dialect:
+    hibernate:
+      ddl-auto: update
